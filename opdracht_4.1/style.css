@@ -22,3 +22,12 @@ a{
     color: #8A2BE2;
     text-decoration: none;
 }
+header{
+    font-size: 100%;
+    height: 33%;
+    color: floralwhite;
+    
+}
+.chicken{
+    background-image: url(Background\ img\ Games.jpg);
+}
