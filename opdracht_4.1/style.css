@@ -28,6 +28,13 @@ header{
     color: floralwhite;
     
 }
-.chicken{
+header{
     background-image: url(Background\ img\ Games.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 50vw;
 }
