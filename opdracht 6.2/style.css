@@ -1,0 +1,10 @@
+.content{
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.block{
+    width: 200px;
+    height: 200px;
+}
