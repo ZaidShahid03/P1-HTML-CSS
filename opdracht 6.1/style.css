@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Goldman", cursive;
+  position: relative;
+  min-height: 100vh;
+  margin: 0; /* Voeg marges toe om de inhoud van de pagina uit te lijnen met de viewport */
+}
+
+.background {
+  background-image: url(./background.hacker.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #00a8c7; /* Geef een gewenste achtergrondkleur aan de navbar */
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px; /* Voeg ruimte toe tussen de lijstitems */
+  font-size: 1.5rem; /* Pas de tekstgrootte aan */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  text-align: center; /* Centreer de inhoud van het hoofdgedeelte */
+}
+
+.footer {
+  background-color: #00a8c7; /* Geef een gewenste achtergrondkleur aan de footer */
+  color: white;
+  text-align: center;
+  padding: 20px 0; /* Voeg ruimte toe rond de tekst in de footer */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
