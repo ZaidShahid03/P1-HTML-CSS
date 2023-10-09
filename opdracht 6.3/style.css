@@ -1,9 +1,13 @@
 .navi {
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex
 }
 
 ul {
     display: flex;
     gap: 20px;
+    list-style-type: none
+}
+li{
+    list-style-type: none;
 }
